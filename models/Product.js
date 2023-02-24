@@ -37,12 +37,6 @@ Product.init(
         key: 'id',
       },
     },
-    edition: {
-      type: DataTypes.INTEGER,
-    },
-    is_paperback: {
-      type: DataTypes.BOOLEAN,
-    }
   },
   {
     sequelize,
